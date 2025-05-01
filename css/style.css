@@ -54,6 +54,10 @@ footer {
     text-align: center;
 }
 
+footer p {
+    color: #000;
+}
+
 footer .footer-social {
     /* Optional: Change size of footer icon */
     width: 24px;

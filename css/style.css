@@ -3,11 +3,11 @@ Bootstrap Variables Override
 **********************************/
 :root {
     /* Replace your primary color from your UI Kit */
-    --bs-primary: #0a9396;
+    --bs-primary: #90DEDE;
 
     /* Replace your secondary color from your UI Kit  */
-    --secondary-color: #6c7573;
-    --bg-teal: #005f73;
+    --secondary-color: #6C757D;
+    --bg-teal: #90DEDE;
 
     /* Replace the main body font from your UI Kit */
     --bs-font-sans-serif: 'Inter', verdana, sans-serif;
@@ -20,6 +20,7 @@ Bootstrap Variables Override
     padding-top: 0;
     padding-bottom: 0;
 }
+
 .bg-teal {
     background-color: var(--bg-teal);
 }
@@ -27,17 +28,23 @@ Bootstrap Variables Override
 /********************************
 Global Styles and UI Components
 **********************************/
-.navbar {
+body {
     background-color: var(--bg-teal);
+}
+
+.navbar {
+    background-color: var(--bs-white);
     /* Optional: Stretch the navbar across the full width */
     width: 100%;
 
     /* Optional: Add inner spacing to the navbar */
     padding: 1rem;
 }
+
 .nav-link {
-    color: #fff;
+    color: #000;
 }
+
 footer {
     /* Change footer background color */
     background-color: var(--bs-white);
@@ -49,8 +56,8 @@ footer {
 
 footer .footer-social {
     /* Optional: Change size of footer icon */
-    width:24px;
-    margin:.5rem
+    width: 24px;
+    margin: .5rem
 }
 
 .btn-primary {
@@ -111,6 +118,7 @@ h2 {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+
     /* Optional: Customize responsive style for display-1 on small devices and larger */
     .display-1 {
         font-size: 4rem;
@@ -119,14 +127,14 @@ h2 {
 
 img,
 video {
-max-width: 100%;
-height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 figcaption {
-text-align: center;
-font-size: 14px;
-margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
 }
 
 .hero {
@@ -134,7 +142,7 @@ margin-top: 5px;
     margin: 0 auto;
 }
 
-.hero h1{
+.hero h1 {
     /* width: 13ch; */
     margin: 0 auto;
 }
@@ -142,10 +150,12 @@ margin-top: 5px;
 section {
     padding: 6em 0;
 }
+
 .card img {
     width: 100%;
     height: auto;
 }
+
 footer {
     background-color: var(--bg-teal);
     display: flex;
@@ -164,6 +174,7 @@ svg {
 .text-centered {
     text-align: center;
 }
+
 .text-left {
     text-align: left;
 }
@@ -172,17 +183,21 @@ svg {
 .row {
     --gridgap: 2em;
 }
+
 .row2 {
     --gridgap2: 0em;
 }
+
 .row>* {
     margin-top: var(--gridgap);
     margin-bottom: var(--gridgap);
 }
-.row2 + .row2 {
+
+.row2+.row2 {
     margin-top: var(--gridgap2);
     margin-bottom: var(--gridgap2);
 }
+
 @media (min-width: 768px) {
     .row {
         display: grid;
@@ -320,15 +335,20 @@ svg {
     }
 
     /* SWAP (REVERSE) COLUMNS - WORKS ONLY w/ 2 CHILDREN  */
-    .row.swapped > *:first-child { order: 2; }
-    .row.swapped > *:last-child { order: 1; }
+    .row.swapped>*:first-child {
+        order: 2;
+    }
+
+    .row.swapped>*:last-child {
+        order: 1;
+    }
 }
 
 @media (min-width: 768px) {
-.social-links {
-    display: flex;
-    justify-content: end;
-    padding: 5em 0 0 0;
+    .social-links {
+        display: flex;
+        justify-content: end;
+        padding: 5em 0 0 0;
     }
 }
 
@@ -440,6 +460,7 @@ svg {
         }
     }
 }
+
 /* 
 .gallery {
     display: flex;

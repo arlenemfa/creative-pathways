@@ -157,7 +157,7 @@ section {
 }
 
 footer {
-    background-color: var(--bg-teal);
+    background-color: var(--bs-white);
     display: flex;
     justify-content: space-between;
     padding: 1em;
@@ -165,7 +165,7 @@ footer {
 }
 
 svg {
-    color: #fff;
+    color: #000;
     width: 25px;
     height: 25px;
     padding: .2em;

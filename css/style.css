@@ -80,6 +80,24 @@ footer .footer-social {
 /********************************
 Typography
 **********************************/
+/* Hero sub-headline styling */
+.hero__subheadline {
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    /* Medium */
+    font-size: 40px;
+    line-height: 1.2;
+    text-align: center;
+    /* if you want it centered under your hero image */
+    margin: 0 auto;
+    /* centers the p within its container */
+    max-width: 800px;
+    /* so very long lines wrap comfortably */
+    color: #333;
+    /* adjust to taste */
+}
+
 h1,
 h2,
 h3,

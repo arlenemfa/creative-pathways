@@ -113,7 +113,7 @@ Typography
     font-style: italic;
     font-weight: 500;
     /* Medium */
-    font-size: 40px;
+    font-size: 28px;
     line-height: 1.2;
     text-align: center;
     /* if you want it centered under your hero image */
@@ -121,7 +121,7 @@ Typography
     /* centers the p within its container */
     max-width: 800px;
     /* so very long lines wrap comfortably */
-    color: #333;
+    color: #54595e;
     /* adjust to taste */
 }
 
@@ -163,6 +163,62 @@ h2 {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 1.25rem;
+}
+
+/* Main Page Title */
+h1 {
+    font-size: 56px;
+    /* 56–64px */
+    font-weight: 700;
+    /* Bold */
+    line-height: 1.2;
+}
+
+/* Section Title */
+h2 {
+    font-size: 36px;
+    /* 36–40px */
+    font-weight: 700;
+    /* Bold */
+    line-height: 1.3;
+}
+
+/* Subsection / Card Title */
+h3 {
+    font-size: 24px;
+    /* 24–32px */
+    font-weight: 600;
+    /* Semi-Bold */
+    line-height: 1.4;
+}
+
+/* Paragraph Body */
+p {
+    font-size: 18px;
+    /* 18px */
+    font-weight: 400;
+    /* Regular */
+    line-height: 1.6;
+}
+
+/* Subheadline / Lead-in Text (not a heading) */
+.lead-in {
+    font-size: 26px;
+    /* 24–28px */
+    font-weight: 400;
+    /* Regular/Medium */
+    line-height: 1.4;
+}
+
+/* Captions / Quotes */
+blockquote,
+.caption {
+    font-size: 18px;
+    /* 16–22px */
+    font-style: italic;
+    font-weight: 500;
+    /* Medium */
+    line-height: 1.5;
 }
 
 /* Small devices (landscape phones, 576px and up) */

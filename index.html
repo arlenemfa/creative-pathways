@@ -59,12 +59,12 @@
     <section class="hero">
         <div class="container">
             <div class="one-half">
-                <h1 class="text-centered">Community</h1>
+                <h1 class="text-centered">Art Therapy &amp; Dementia Care</h1>
             </div>
             <div class="container my-5">
 
                 <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/lTkGqZxZn00" title="Caring for Dad with FTD"
+                    <iframe src="https://www.youtube.com/embed/lTkGqZxZn00" title="Placeholder Video"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
                     </iframe>
@@ -80,44 +80,56 @@
     <!-- End of Hero Section -->
 
     <!-- Start of Card Section -->
-    <section id="works" class="projects">
+    <!-- ARTWORK CAROUSEL -->
+    <section class="py-5">
         <div class="container">
-            <h2 class="mb-5">Featured Links:</h2>
-            <div class="row">
-                <!-- Start of Card -->
-                <div class="card" style="width: 18rem;">
-                    <img src="img/card-1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Art Therapy</h5>
-                        <p class="card-text">Learn how creative art therapy is changing dementia care—improving mood,
-                            communication, and quality of life for patients and caregivers through research-driven
-                            innovations. </p>
-                        <a href="https://arlenemfa.github.io/creative-pathways/about.html" class="btn btn-primary">Learn
-                            More</a>
-                    </div>
+            <h2 class="mb-4 text-center">A Daughter's Journey Through Art and Love</h2>
+            <div id="artworkCarousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- INDICATORS -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#artworkCarousel" data-bs-slide-to="0"
+                        class="active"></button>
+                    <button type="button" data-bs-target="#artworkCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#artworkCarousel" data-bs-slide-to="2"></button>
+                    <!-- …add one per slide… -->
                 </div>
 
-                <div class="card" style="width: 18rem;">
-                    <img src="img/card-2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Gallery</h5>
-                        <p class="card-text">Discover how creative expression is uplifting hearts and minds within our
-                            community.</p>
-                        <a href="https://arlenemfa.github.io/creative-pathways/gallery.html"
-                            class="btn btn-primary">View Gallery </a>
+                <!-- SLIDES -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card mx-auto" style="max-width: 600px;">
+                            <img src="img/home-art1.png" class="card-img-top" alt="Title or brief alt">
+                            <div class="card-body">
+                                <h5 class="card-title">“Dear Dementia”</h5>
+                                <p class="card-text">A poem I wrote through love and compassion.</p>
+                            </div>
+                        </div>
                     </div>
+                    <div class="carousel-item">
+                        <div class="card mx-auto" style="max-width: 600px;">
+                            <img src="img/home-art2.png" class="card-img-top" alt="…">
+                            <div class="card-body">
+                                <h5 class="card-title">“The Time is Near”</h5>
+                                <p class="card-text">Processing my grief through creative expression.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- …more slides… -->
                 </div>
 
-                <div class="card" style="width: 18rem;">
-                    <img src="img/card-3.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Community</h5>
-                        <p class="card-text">Explore personal stories and visual testimonials from caregivers, patients,
-                            and professionals that reveal the real impact of creative expression in dementia care.</p>
-                        <a href="https://arlenemfa.github.io/creative-pathways/community.html"
-                            class="btn btn-primary">Join the Community </a>
-                    </div>
-                </div>
+                <!-- CONTROLS -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#artworkCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#artworkCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
     </section>
     <!-- End of Card Section -->
 

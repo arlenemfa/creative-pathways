@@ -568,6 +568,7 @@ svg {
     }
 }
 
+/* 1) make the gallery container a flex-wrap grid and center it */
 .gallery>.container>div {
     display: flex;
     flex-wrap: wrap;
@@ -575,8 +576,20 @@ svg {
     gap: 1rem;
 }
 
-.gallery img {
-    max-width: 300px;
+/* 2) force every <a> to be the same thumbnail box */
+.gallery .container>div>a {
+    display: block;
+    width: 300px;
+    /* pick your ideal thumbnail width */
+    height: 200px;
+    /* pick your ideal thumbnail height (or use aspect-ratio) */
+    overflow: hidden;
+    /* crop anything sticking out */
+}
+
+/* 3) fill that box with the image, cropping/centering it */
+.gallery .container>div>a img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
 }

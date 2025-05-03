@@ -568,9 +568,15 @@ svg {
     }
 }
 
-/* 
-.gallery {
+.gallery>.container>div {
     display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
-} */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.gallery img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}

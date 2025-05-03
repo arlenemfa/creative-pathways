@@ -117,7 +117,7 @@ Typography
     line-height: 1.2;
     text-align: center;
     /* if you want it centered under your hero image */
-    margin: 0 auto;
+    margin: 20px auto;
     /* centers the p within its container */
     max-width: 800px;
     /* so very long lines wrap comfortably */

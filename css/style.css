@@ -304,13 +304,15 @@ svg {
 }
 
 @media (min-width: 768px) {
+
+    /* still use “.row” for your old 12-col layout */
     .row {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         gap: var(--gridgap);
     }
 
-    /* ONLY this one “row” becomes an auto-fitting, centered grid */
+    /* this is your cards container — auto-fit and center it */
     .resources-row {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -318,8 +320,6 @@ svg {
         gap: var(--gridgap);
     }
 }
-
-
 
 /* COMMONLY USED SEMANTIC COLUMN WIDTHS */
 .one-half {

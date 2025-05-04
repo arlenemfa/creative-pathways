@@ -311,6 +311,16 @@ svg {
         /* place-items: center; */
     }
 
+    @media (min-width: 768px) {
+        .resources-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            justify-content: center;
+            gap: var(--gridgap);
+        }
+    }
+
+
     /* COMMONLY USED SEMANTIC COLUMN WIDTHS */
     .one-half {
         grid-column: auto / span 6;
